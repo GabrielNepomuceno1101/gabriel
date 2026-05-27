@@ -54,11 +54,12 @@ class aula01{
         boolean bool = false;
         String nome[] ={"Gabriel","João","William","Erik"};
         // posição         0         1       2        3
-        if (bool){
-            System.out.println("VERDADEIRO");
+        String email = "gahnepomuceno1101@icloud.com";
+        if (email =="gahnepomuceno1101@icloud.com"){
+            System.out.println("LOGIN OK");
 
         }else{
-            System.out.println("Errado o nome é: "+nome[0] +" "+nome[1] +" "+nome[2]);
+            System.out.println("Erro de login: ");
 
         }
     }
