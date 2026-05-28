@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 // Poo -> Promoção Orientada Objeto.
 // É uma linguagem Fortemente tipada.
 // indepedente de plataforma(Multiplataforma).
@@ -55,8 +57,8 @@ class aula01{
         String nome[] ={"Gabriel","João","William","Erik"};
         // posição         0         1       2        3
         String email = "gahnepomuceno1101@icloud.com";
-        if (email =="gahnepomuceno1101@icloud.com"){
-            System.out.println("LOGIN OK");
+        int [] contador = new int [10];
+             nome [5] = "FERNANDA";
 
         }else{
             System.out.println("Erro de login: ");
@@ -64,4 +66,28 @@ class aula01{
         }
     }
 
+}
+
+
+class array{
+public  static void main(String[] args) {
+    // Lista dinamica é uma lista em que 
+    //podemos acresentar ou remover
+    //informação de uma lista da forma
+    //que desejamos.
+
+    ArrayList<String> nomes = new ArrayList<>();
+      nomes.add("Erik");
+      nomes.add("Isabele");
+      nomes.add("Izadora");
+      nomes.add("João");
+      nomes.add("william");
+
+      System.out.println(nomes.get(4));
+      
+      nomes.remove(0);
+
+      System.out.println(nomes.get(0));
+
+}
 }
